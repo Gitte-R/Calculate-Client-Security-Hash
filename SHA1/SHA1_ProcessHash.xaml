@@ -7,7 +7,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1072,1651</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1101,2051</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>SHA1_ProcessHash_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -106,25 +106,47 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Retrieves the HashResult based on the input HashFormula.&#xA;Check if SHA1 generator is opened." DisplayName="SHA1_ProcessHash" sap:VirtualizedContainerService.HintSize="512,1586" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Retrieves the HashResult based on the input HashFormula.&#xA;Check if SHA1 generator is opened." DisplayName="SHA1_ProcessHash" sap:VirtualizedContainerService.HintSize="512,1986" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Edge: SHA1 - Online Tools" sap:VirtualizedContainerService.HintSize="450,1456" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="71a684f2-c6ef-45f9-994b-57d776eb007a" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Edge: SHA1 - Online Tools" sap:VirtualizedContainerService.HintSize="450,1856" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="71a684f2-c6ef-45f9-994b-57d776eb007a" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,1216" sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,1616" sap2010:WorkflowViewState.IdRef="Sequence_4">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="354,175" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;Clearing input and output fields...&quot;]" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Opdater'" sap:VirtualizedContainerService.HintSize="354,225" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="71a684f2-c6ef-45f9-994b-57d776eb007a" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://emn178.github.io/online-tools/sha1.html" DesignTimeRectangle="60, 46, 40, 30" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='SHA1 - Online Tools – Microsoft Edge' role='pane' /&gt;&lt;ctrl name='Applinje' role='tool bar' /&gt;&lt;ctrl name='Opdater' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='SHA1 - Online Tools – Microsoft Edge' role='pane' /&gt;&lt;ctrl name='Applinje' role='tool bar' /&gt;&lt;ctrl name='Opdater' role='push button' automationid='' check:text='Opdater' /&gt;" Guid="4d0ea30d-c441-4d37-ad58-3a8e376eb1f6" InformativeScreenshot="e865752865155542898ff62ad54b298c.png" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='SHA1 - Online Tools - Profil 1 - Microsoft​ Edge' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="8, 42, 1920, 38" FullSelectorArgument="&lt;ctrl name='SHA1 - Online Tools – Microsoft Edge' role='pane' /&gt;&lt;ctrl name='Applinje' role='tool bar' /&gt;&lt;ctrl role='pane' /&gt;" FuzzySelectorArgument="&lt;ctrl name='SHA1 - Online Tools – Microsoft Edge' role='pane' /&gt;&lt;ctrl name='Applinje' role='tool bar' /&gt;&lt;ctrl role='pane' automationid='' check:fulltext='Tilbage&amp;#xD;&amp;#xA;Opdater&amp;#xD;&amp;#xA;https://emn178.github.io/online-tools/sha1.html&amp;#xD;&amp;#xA;Udvidelser&amp;#xD;&amp;#xA;Opdelt skærm&amp;#xD;&amp;#xA;Favoritter&amp;#xD;&amp;#xA;Samlinger&amp;#xD;&amp;#xA;Browser-essentials&amp;#xD;&amp;#xA;Indstillinger med mere (Alt+F)&amp;#xD;&amp;#xA;Copilot (Ctrl+Shift+.)' /&gt;" Guid="2bf91e47-cd5e-4c89-8c4a-4d28f401fde8" SearchSteps="Selector, FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
             <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="354,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Entering Hash Formula value: &quot; + in_HashFormula + &quot;...&quot;]" />
             <uix:NSetText DelayAfter="2" DisplayName="Set Text 'Input'" sap:VirtualizedContainerService.HintSize="354,194" sap2010:WorkflowViewState.IdRef="NSetText_1" ScopeIdentifier="71a684f2-c6ef-45f9-994b-57d776eb007a" Text="[in_HashFormula]" Version="V4">
               <uix:NSetText.Target>
@@ -170,7 +192,7 @@
                 </uix:TargetAnchorable>
               </uix:NGetText.Target>
             </uix:NGetText>
-            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,141" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;HashResult extracted.&quot;]" />
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="354,168" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;HashResult extracted.&quot;]" />
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
